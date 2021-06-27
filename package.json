@@ -1,7 +1,7 @@
 {
-  "name": "vite-tauri-template",
+  "name": "httpbook-users-desktop",
   "version": "1.1.1",
-  "description": "Vite + Tauri + Vue 3 + Vuetify 3 desktop app template",
+  "description": "Test and store api endpoints with your teammates",
   "keywords": [
     "vite",
     "tauri",
@@ -32,10 +32,6 @@
     "sass-loader": "12.1.0",
     "vite": "2.3.8",
     "vue-cli-plugin-vuetify": "2.4.1"
-  },
-  "repository": {
-    "type": "github",
-    "url": "https://github.com/yooneskh/vite-tauri-template"
   },
   "license": "ISC"
 }
