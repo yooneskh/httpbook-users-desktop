@@ -3,6 +3,7 @@ import { createApp } from 'vue';
 import vuetify from './plugins/vuetify';
 import routes from './routes';
 import App from './App.vue';
+import './assets/styles/app.scss';
 
 import './plugins/configure-ynetwork';
 

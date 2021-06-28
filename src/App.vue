@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <v-app>
+  <v-app theme="dark">
     <v-main>
       <router-view />
     </v-main>

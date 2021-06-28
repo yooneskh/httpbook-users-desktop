@@ -1,23 +1,23 @@
 <script setup>
 
-import Counter from '../../components/Counter.vue';
-import ColorChecker from '../../components/ColorChecker.vue';
-import Requester from '../../components/Requester.vue';
+import Sidebar from './sidebar/Sidebar.vue';
 
 </script>
 
 <template>
-  <v-container class="page">
+  <div class="page" fluid>
 
-    <Counter />
+    <Sidebar class="sidebar" />
 
-    <ColorChecker class="mt-3" />
-
-    <Requester class="mt-3" />
-
-    <v-btn block flat color="info" class="mt-3" to="/about-us">
-      Go To About Us
-    </v-btn>
-
-  </v-container>
+  </div>
 </template>
+
+<style lang="scss" scoped>
+  .page {
+
+    .sidebar {
+      height: 100vh;
+      width: 233px;
+    }
+  }
+</style>
