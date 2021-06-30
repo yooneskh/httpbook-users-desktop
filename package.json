@@ -14,7 +14,8 @@
     "serve:native": "VITE_HTTP_HANDLER=NATIVE vite --port 8080",
     "serve:tauri": "tauri dev",
     "build:web": "vite build",
-    "build": "VITE_HTTP_HANDLER=NATIVE vite build && tauri build"
+    "build": "VITE_HTTP_HANDLER=NATIVE vite build && tauri build",
+    "lint": "exit 0;"
   },
   "dependencies": {
     "@mdi/font": "5.9.55",
@@ -27,7 +28,7 @@
   },
   "devDependencies": {
     "@tauri-apps/cli": "1.0.0-beta.3",
-    "@vitejs/plugin-vue": "1.2.3",
+    "@vitejs/plugin-vue": "1.2.4",
     "@vue/compiler-sfc": "3.1.2",
     "sass": "1.35.1",
     "sass-loader": "12.1.0",
