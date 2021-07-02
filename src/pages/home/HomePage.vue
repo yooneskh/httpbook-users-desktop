@@ -28,7 +28,7 @@ import MainContent from './main-content/MainContent.vue';
       '_S _M';
 
     grid-template-columns: 233px auto;
-    grid-template-rows: 36px auto;
+    grid-template-rows: auto 1fr;
 
     .sidebar {
       grid-area: _S;

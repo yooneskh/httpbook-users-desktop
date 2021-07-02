@@ -11,8 +11,8 @@ const props = defineProps({
 </script>
 
 <template>
-  <div class="tab-item" :class="{ 'active' : props.active }" style="height: 100%;">
-    <div class="wrapper px-2 d-flex flex-row align-center" style="height: 100%;" @click.self="$emit('click')">
+  <div class="tab-item" :class="{ 'active' : props.active }">
+    <div class="wrapper px-2 py-2 d-flex flex-row align-center" @click.self="$emit('click')">
 
       <span class="text-caption" @click="$emit('click')">
         ApiName
