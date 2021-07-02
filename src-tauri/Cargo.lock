@@ -1449,7 +1449,7 @@ dependencies = [
 name = "num-iter"
 version = "0.1.42"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b2021c8337a54d21aca0d59a92577a029af9431cb59b909b03252b9c164fad59"
+checksum = "b2021c8337a54d21aca0d59a92577a029af9431cb59b909b03752b9c164fad59"
 dependencies = [
  "autocfg",
  "num-integer",

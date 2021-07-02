@@ -32,9 +32,9 @@ const props = defineProps({
     user-select: none;
   }
   .tab-item.active {
-    background-color: rgba(white, 0.0325);
+    background-color: rgba(white, 0.0375);
   }
-  .tab-item:not(:last-child) {
+  .tab-item {
     border-right: 1px solid rgba(white, 0.075);
   }
 </style>

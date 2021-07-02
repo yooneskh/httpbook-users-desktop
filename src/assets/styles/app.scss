@@ -1,3 +1,21 @@
 html {
   overflow: hidden;
 }
+
+.y-select, .y-input, .y-button {
+  background-color: rgba(white, 0.0375);
+  color: #FAFAFA;
+  border: 1px solid rgba(white, 0.075);
+  padding: 8px;
+  border-radius: 4px;
+  width: 100%;
+  transition: all 100ms ease-in-out;
+  &:hover {
+    background-color: rgba(white, 0.075);
+    border: 1px solid rgba(white, 0.15);
+  }
+}
+
+.y-select option {
+  background-color: black;
+}

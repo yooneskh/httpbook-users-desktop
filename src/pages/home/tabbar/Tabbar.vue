@@ -11,7 +11,7 @@ const activeTab = ref(3);
   <div class="tabbar">
 
     <TabItem
-      v-for="tab of 12" :key="tab"
+      v-for="tab of 9" :key="tab"
       class="tab-item"
       :active="tab === activeTab"
       @click="activeTab = tab"
