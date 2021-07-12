@@ -2,10 +2,16 @@ import { createApp } from 'vue';
 
 import vuetify from './plugins/vuetify';
 import routes from './routes';
-import App from './App.vue';
+import App from './app.vue';
 import './assets/styles/app.scss';
 
 import './plugins/configure-ynetwork';
+
+import 'vue-global-api/ref';
+import 'vue-global-api/reactive';
+import 'vue-global-api/computed';
+import 'vue-global-api/watch';
+import 'vue-global-api/watchEffect';
 
 
 const app = createApp(App);

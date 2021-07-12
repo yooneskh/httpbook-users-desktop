@@ -10,29 +10,30 @@
     "desktop"
   ],
   "scripts": {
+    "lint": "exit 0;",
     "serve": "vite --port 8080",
     "serve:native": "VITE_HTTP_HANDLER=NATIVE vite --port 8080",
     "serve:tauri": "tauri dev",
     "build:web": "vite build",
-    "build": "VITE_HTTP_HANDLER=NATIVE vite build && tauri build",
-    "lint": "exit 0;"
+    "build": "VITE_HTTP_HANDLER=NATIVE vite build && tauri build"
   },
   "dependencies": {
     "@mdi/font": "5.9.55",
-    "@tauri-apps/api": "1.0.0-beta.3",
+    "@tauri-apps/api": "1.0.0-beta.4",
     "roboto-fontface": "0.10.0",
-    "vue": "3.1.2",
-    "vue-router": "4",
-    "vuetify": "3.0.0-alpha.8",
+    "vue": "3.1.4",
+    "vue-global-api": "0.1.2",
+    "vue-router": "4.0.10",
+    "vuetify": "3.0.0-alpha.9",
     "ynetwork": "2.8.1"
   },
   "devDependencies": {
-    "@tauri-apps/cli": "1.0.0-beta.3",
+    "@tauri-apps/cli": "1.0.0-beta.5",
     "@vitejs/plugin-vue": "1.2.4",
-    "@vue/compiler-sfc": "3.1.2",
-    "sass": "1.35.1",
+    "@vue/compiler-sfc": "3.1.4",
+    "sass": "1.35.2",
     "sass-loader": "12.1.0",
-    "vite": "2.3.8",
+    "vite": "2.4.1",
     "vue-cli-plugin-vuetify": "2.4.1"
   },
   "license": "ISC"
