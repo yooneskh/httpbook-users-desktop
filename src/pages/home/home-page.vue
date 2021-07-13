@@ -1,22 +1,22 @@
 <script setup>
 
-import Sidebar from './sidebar/Sidebar.vue';
-import Tabbar from './tabbar/Tabbar.vue';
-import MainContent from './main-content/MainContent.vue';
-import MainResult from './main-result/MainResult.vue';
+import Sidebar from './sidebar/sidebar.vue';
+import Tabbar from './tabbar/tabbar.vue';
+import MainContent from './main-content/main-content.vue';
+import MainResult from './main-result/main-result.vue';
 
 </script>
 
 <template>
   <div class="page" fluid>
 
-    <Sidebar class="sidebar" />
+    <sidebar class="sidebar" />
 
-    <Tabbar class="tabbar" />
+    <tabbar class="tabbar" />
 
-    <MainContent class="main-content" />
+    <main-content class="main-content" />
 
-    <MainResult class="main-result" />
+    <main-result class="main-result" />
 
   </div>
 </template>

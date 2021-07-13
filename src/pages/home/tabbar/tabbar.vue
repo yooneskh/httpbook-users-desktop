@@ -1,7 +1,6 @@
 <script setup>
 
-import { ref } from "vue";
-import TabItem from "./components/TabItem.vue";
+import TabItem from "./components/tab-item.vue";
 
 const activeTab = ref(3);
 
@@ -10,7 +9,7 @@ const activeTab = ref(3);
 <template>
   <div class="tabbar">
 
-    <TabItem
+    <tab-item
       v-for="tab of 9" :key="tab"
       class="tab-item"
       :active="tab === activeTab"

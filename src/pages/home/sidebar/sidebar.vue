@@ -1,19 +1,19 @@
 <script setup>
 
-import SidebarProjectSelector from "./components/SidebarProjectSelector.vue";
-import SidebarItemsToolbar from "./components/SidebarItemsToolbar.vue";
-import SidebarItems from "./components/SidebarItems.vue";
+import SidebarProjectSelector from "./components/sidebar-project-selector.vue";
+import SidebarItemsToolbar from "./components/sidebar-items-toolbar.vue";
+import SidebarItems from "./components/sidebar-items.vue";
 
 </script>
 
 <template>
   <div class="sidebar">
 
-    <SidebarProjectSelector class="project-selector" />
+    <sidebar-project-selector class="project-selector" />
 
-    <SidebarItemsToolbar class="items-toolbar" />
+    <sidebar-items-toolbar class="items-toolbar" />
 
-    <SidebarItems class="items" />
+    <sidebar-items class="items" />
 
   </div>
 </template>

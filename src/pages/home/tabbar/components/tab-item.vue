@@ -1,7 +1,5 @@
 <script setup>
 
-import { toRefs } from "vue";
-
 const emit = defineEmit(['click', 'close']);
 
 const props = defineProps({

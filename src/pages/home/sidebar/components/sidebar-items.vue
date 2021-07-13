@@ -1,12 +1,12 @@
 <script setup>
 
-import SidebarItem from "./SidebarItem.vue";
+import SidebarItem from "./sidebar-item.vue";
 
 </script>
 
 <template>
   <div class="sidebar-items">
-    <SidebarItem
+    <sidebar-item
       v-for="i in 12" :key="i"
       class="sidebar-item"
     />

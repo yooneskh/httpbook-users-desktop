@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 
-import HomePage from './pages/home/HomePage.vue';
+import HomePage from './pages/home/home-page.vue';
 
 
 export default createRouter({
